@@ -9,6 +9,10 @@ import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import Workouts from "./pages/Workouts";
+import Nutrition from "./pages/Nutrition";
+import Settings from "./pages/Settings";
+
 
 const router = createBrowserRouter([
   {
@@ -20,6 +24,10 @@ const router = createBrowserRouter([
       { path: "/login", element: <Login /> },
       { path: "/signup", element: <Signup /> },
       { path: "/dashboard", element: <Dashboard /> },
+      { path: "/workouts", element: <Workouts /> },
+      { path: "/nutrition", element: <Nutrition /> },
+      { path: "/settings", element: <Settings /> },
+
     ],
   },
 ]);
